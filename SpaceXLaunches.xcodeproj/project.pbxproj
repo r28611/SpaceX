@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		AB1C5C8B28CA31D500D288BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5C8A28CA31D500D288BE /* AppDelegate.swift */; };
 		AB1C5C8D28CA31D500D288BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5C8C28CA31D500D288BE /* SceneDelegate.swift */; };
-		AB1C5C8F28CA31D500D288BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5C8E28CA31D500D288BE /* ViewController.swift */; };
-		AB1C5C9228CA31D500D288BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C5C9028CA31D500D288BE /* Main.storyboard */; };
 		AB1C5C9428CA31D600D288BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1C5C9328CA31D600D288BE /* Assets.xcassets */; };
 		AB1C5C9728CA31D600D288BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1C5C9528CA31D600D288BE /* LaunchScreen.storyboard */; };
+		AB1C5C9F28CA327D00D288BE /* LaunchesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5C9E28CA327D00D288BE /* LaunchesListViewController.swift */; };
+		AB1C5CA128CA32BE00D288BE /* LaunchesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CA028CA32BE00D288BE /* LaunchesListView.swift */; };
+		AB1C5CA328CA331000D288BE /* LaunchesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CA228CA331000D288BE /* LaunchesCell.swift */; };
+		AB1C5CA528CA334900D288BE /* LaunchesCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CA428CA334900D288BE /* LaunchesCellView.swift */; };
+		AB1C5CA728CA342D00D288BE /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CA628CA342D00D288BE /* Launch.swift */; };
+		AB1C5CA928CA36B500D288BE /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CA828CA36B500D288BE /* ImageDownloader.swift */; };
+		AB1C5CAB28CA376900D288BE /* LaunchesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CAA28CA376900D288BE /* LaunchesListViewModel.swift */; };
+		AB1C5CAD28CA37F000D288BE /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1C5CAC28CA37F000D288BE /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AB1C5C8728CA31D500D288BE /* SpaceXLaunches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXLaunches.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1C5C8A28CA31D500D288BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB1C5C8C28CA31D500D288BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB1C5C8E28CA31D500D288BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB1C5C9128CA31D500D288BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB1C5C9328CA31D600D288BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1C5C9628CA31D600D288BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1C5C9828CA31D600D288BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB1C5C9E28CA327D00D288BE /* LaunchesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesListViewController.swift; sourceTree = "<group>"; };
+		AB1C5CA028CA32BE00D288BE /* LaunchesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesListView.swift; sourceTree = "<group>"; };
+		AB1C5CA228CA331000D288BE /* LaunchesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesCell.swift; sourceTree = "<group>"; };
+		AB1C5CA428CA334900D288BE /* LaunchesCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesCellView.swift; sourceTree = "<group>"; };
+		AB1C5CA628CA342D00D288BE /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		AB1C5CA828CA36B500D288BE /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		AB1C5CAA28CA376900D288BE /* LaunchesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesListViewModel.swift; sourceTree = "<group>"; };
+		AB1C5CAC28CA37F000D288BE /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +70,43 @@
 			children = (
 				AB1C5C8A28CA31D500D288BE /* AppDelegate.swift */,
 				AB1C5C8C28CA31D500D288BE /* SceneDelegate.swift */,
-				AB1C5C8E28CA31D500D288BE /* ViewController.swift */,
-				AB1C5C9028CA31D500D288BE /* Main.storyboard */,
 				AB1C5C9328CA31D600D288BE /* Assets.xcassets */,
 				AB1C5C9528CA31D600D288BE /* LaunchScreen.storyboard */,
 				AB1C5C9828CA31D600D288BE /* Info.plist */,
+				AB1C5CAA28CA376900D288BE /* LaunchesListViewModel.swift */,
+				AB1C5CB028CA39C800D288BE /* View */,
+				AB1C5CAF28CA39AD00D288BE /* Model */,
+				AB1C5CAE28CA399E00D288BE /* Network */,
 			);
 			path = SpaceXLaunches;
+			sourceTree = "<group>";
+		};
+		AB1C5CAE28CA399E00D288BE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C5CAC28CA37F000D288BE /* NetworkService.swift */,
+				AB1C5CA828CA36B500D288BE /* ImageDownloader.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AB1C5CAF28CA39AD00D288BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C5CA628CA342D00D288BE /* Launch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB1C5CB028CA39C800D288BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB1C5C9E28CA327D00D288BE /* LaunchesListViewController.swift */,
+				AB1C5CA228CA331000D288BE /* LaunchesCell.swift */,
+				AB1C5CA028CA32BE00D288BE /* LaunchesListView.swift */,
+				AB1C5CA428CA334900D288BE /* LaunchesCellView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +169,6 @@
 			files = (
 				AB1C5C9728CA31D600D288BE /* LaunchScreen.storyboard in Resources */,
 				AB1C5C9428CA31D600D288BE /* Assets.xcassets in Resources */,
-				AB1C5C9228CA31D500D288BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +179,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1C5C8F28CA31D500D288BE /* ViewController.swift in Sources */,
+				AB1C5CAD28CA37F000D288BE /* NetworkService.swift in Sources */,
 				AB1C5C8B28CA31D500D288BE /* AppDelegate.swift in Sources */,
+				AB1C5CA528CA334900D288BE /* LaunchesCellView.swift in Sources */,
+				AB1C5CA928CA36B500D288BE /* ImageDownloader.swift in Sources */,
 				AB1C5C8D28CA31D500D288BE /* SceneDelegate.swift in Sources */,
+				AB1C5CA328CA331000D288BE /* LaunchesCell.swift in Sources */,
+				AB1C5CA728CA342D00D288BE /* Launch.swift in Sources */,
+				AB1C5C9F28CA327D00D288BE /* LaunchesListViewController.swift in Sources */,
+				AB1C5CA128CA32BE00D288BE /* LaunchesListView.swift in Sources */,
+				AB1C5CAB28CA376900D288BE /* LaunchesListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AB1C5C9028CA31D500D288BE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB1C5C9128CA31D500D288BE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB1C5C9528CA31D600D288BE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +332,6 @@
 				INFOPLIST_FILE = SpaceXLaunches/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +359,6 @@
 				INFOPLIST_FILE = SpaceXLaunches/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
